@@ -11,4 +11,8 @@ I also used the Pyplot module of the Matplotlib Library to plot the images and s
 Then for the Data Preprocessing part -> I defined the image size and the batch size of the images.
 ImageDataGenerator is used for rescaling and validation splitting.
 Created Training and Validation Generators.
-At last mapped the classes using the train_generator and extracted the class names
+Mapped the classes using the train_generator and extracted the class names
+Then I used a pre-trained model MobileNetV2 that helped in the project
+Used 20 epochs to train the model
+Then plotted the training and validation Accuracy and Loss
+At last I used the Keras library for the image generation
